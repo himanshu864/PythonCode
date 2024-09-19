@@ -1,3 +1,12 @@
+def fns():
+    x = 5
+    y = 3
+    x /= y # 1.66667
+    if bool('True') == True and not(x == 1):
+        print("Ya" + ("ta" * 3) + "!")
+    else:
+        print("nu uh")
+
 def intro():
     age = input('Enter age: ')
     print('age = ', age)
