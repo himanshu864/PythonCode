@@ -57,6 +57,9 @@ def dict():
     print(d.keys())
     print(d.values())
 
+    del d['h']
+    print(d)
+
 def tuply():
     t = ('abc', 34, 'd', -4, 5.5, (3,7,4))
     print(t)
@@ -112,8 +115,8 @@ def main():
     # stringy()
     # listy()
     # tuply()
-    # dict()
-    sets()
+    dict()
+    # sets()
 
 if __name__ == '__main__':
     main()

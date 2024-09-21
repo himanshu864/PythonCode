@@ -1,3 +1,11 @@
+def comprehension():
+    # x = [x for x in range(5)] # [0,1,2,3,4]
+    # x = [x + 3 for x in range(5)] # [3,4,5,6,7]
+    # x = [x % 3 for x in range(5)] # [0,1,2,0,1]
+    # x = [x for x in range(2) for x in range(5)] # [0,1,2,3,4,0,1,2,3,4]
+    x = [x for x in range(5) if x % 2 == 0] # [0,2,4]
+    print(x)
+
 def higher():
     nums = [1, 2, 3, 4, 5]
 
